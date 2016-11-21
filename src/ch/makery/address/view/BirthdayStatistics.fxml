@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="620.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.BirthdayStatisticsController"> 
+   <children>
+      <BarChart fx:id="barChart" layoutY="25.0" legendVisible="false" prefHeight="450.0" prefWidth="620.0" styleClass="background" stylesheets="@DarkTheme.css" title="Birthday Statistics" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <xAxis>
+            <CategoryAxis label="Months" side="BOTTOM" stylesheets="@DarkTheme.css" tickLabelRotation="-90.0" fx:id="xAxis" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis label="Count" minorTickCount="0" minorTickVisible="false" side="LEFT" stylesheets="@DarkTheme.css" tickUnit="1.0" />
+         </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>
