@@ -1,5 +1,7 @@
 # AddressApp
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c4b2a0fed7cb46168e6aaead7982fd9b)](https://app.codacy.com/gh/valerii-martell/AddressApp?utm_source=github.com&utm_medium=referral&utm_content=valerii-martell/AddressApp&utm_campaign=Badge_Grade_Settings)
+
 A simple address book which is written using Java, JavaFX, build system - Apache Ant, database - XML. Repack created in "Inno setup" program. 
 
 **Examples:**
